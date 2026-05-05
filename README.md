@@ -12,3 +12,6 @@
 - バックエンド: Cloudflare Workers (Hono)
 - データベース: Cloudflare D1 (SQLite)
 - メッセージング: LINE Messaging API
+
+## ライセンス
+MIT License

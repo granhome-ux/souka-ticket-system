@@ -1,24 +1,30 @@
-# Dependencies
+# Node
 node_modules/
+npm-debug.log*
+package-lock.json
 
-# Environment variables
+# Environment
 .env
 .env.local
 .dev.vars
 
-# Cloudflare Wrangler
+# Wrangler
 .wrangler/
 wrangler.toml.backup
 
-# Claude
+# Claude Code
 .claude/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Build output
-dist/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Logs
+# Build
+dist/
 *.log
